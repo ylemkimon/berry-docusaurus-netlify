@@ -37,5 +37,8 @@
   },
   "devDependencies": {
     "webpack": "^4.44.1"
+  },
+  "resolutions": {
+    "@docusaurus/theme-classic": "patch:@docusaurus/theme-classic@2.0.0-alpha.61#./docusaurus-theme-classic.patch"
   }
 }

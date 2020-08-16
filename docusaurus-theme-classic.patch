@@ -1,0 +1,13 @@
+diff --git a/src/index.js b/src/index.js
+index 8d0653830b34cbdda3f03584f837e00743953d08..587020cf7feb85090a3b1061de337a0fdef3dc63 100644
+--- a/src/index.js
++++ b/src/index.js
+@@ -14,7 +14,7 @@ const requireFromDocusaurusCore = createRequire(
+   require.resolve('@docusaurus/core/package.json'),
+ );
+ const ContextReplacementPlugin = requireFromDocusaurusCore(
+-  'webpack/lib/ContextReplacementPlugin',
++  requireFromDocusaurusCore.resolve('webpack/lib/ContextReplacementPlugin'),
+ );
+ 
+ // Need to be inlined to prevent dark mode FOUC
