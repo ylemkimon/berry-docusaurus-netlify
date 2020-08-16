@@ -21,8 +21,7 @@
     "lodash": "^4.17.20",
     "lodash.flatmap": "^4.5.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "webpack": "^4.44.1"
+    "react-dom": "^16.8.4"
   },
   "browserslist": {
     "production": [
@@ -35,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1"
   }
 }
