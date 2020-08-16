@@ -14,13 +14,15 @@
     "@babel/runtime": "^7.11.2",
     "@docusaurus/core": "^2.0.0-alpha.61",
     "@docusaurus/preset-classic": "^2.0.0-alpha.61",
+    "@docusaurus/utils": "^2.0.0-alpha.61",
     "@mdx-js/react": "^1.5.8",
     "chalk": "^4.1.0",
     "clsx": "^1.1.1",
     "lodash": "^4.17.20",
     "lodash.flatmap": "^4.5.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "webpack": "^4.44.1"
   },
   "browserslist": {
     "production": [
