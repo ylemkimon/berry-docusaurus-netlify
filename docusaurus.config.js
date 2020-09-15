@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Zir Site',
+  title: 'My Site',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
